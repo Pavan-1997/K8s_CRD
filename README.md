@@ -45,3 +45,22 @@ kubectl apply -f crd.yml
 ```
 kubectl apply -f crd_test.yml
 ```
+
+
+
+4. Manage your Custom Oject using kubectl
+
+```
+kubectl get grt
+```
+![image](https://github.com/Pavan-1997/K8s_CRD/assets/32020205/ef8054c6-ad76-4bdd-93ed-59f0c7bfef7c)
+
+5. To view the raw YAML data for the Custom Resource
+
+```
+kubectl get grt crd_test -o yaml
+```
+![image](https://github.com/Pavan-1997/K8s_CRD/assets/32020205/78950315-78a9-4612-b260-c0abd1b50723)
+
+6. 
+
