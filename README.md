@@ -71,7 +71,12 @@ kubectl delete -f crd.yml
 
 7. Adding additional Printer Columns
 
-Apply  the CRD_Printer.yml in the repo to the cluster that adds the REPLICAS, VERSION, and Age columns.
+Apply  the crd_printer.yml in the repo to the cluster that adds the REPLICAS, VERSION, and Age columns
 
+```
+kubectl apply -f crd_printer.yml
+```
+
+ 
 
 
