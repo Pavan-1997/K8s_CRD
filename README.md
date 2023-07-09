@@ -31,3 +31,17 @@ Created a CRD with filename crd.yml for name : greeting, present in the repo
 Created a Custom Object which is based on the CRD created with filename CRD_Test.yml, present in the repo
 
 ---
+
+1. Create a K8s cluster, using Minikube locally
+
+2. Apply  the CRD in the repo to the cluster
+
+```
+kubectl apply -f crd.yml
+```
+
+3. Apply Custom Object in the repo to the cluster
+
+```
+kubectl apply -f crd_test.yml
+```
