@@ -1,0 +1,8 @@
+apiVersion: pavan.io/v1alpha1
+kind: Greeting
+metadata:
+  name: pavan-greeting
+spec:
+  emailToGreet: pavanraj97@gmail.com
+  messageToGreet: Hello
+  replicas: 1
