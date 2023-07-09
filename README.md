@@ -26,4 +26,6 @@ CRDs allow users to create new types of custom resources without adding another 
 When you create a new CRD, the Kubernetes API Server creates a new RESTful resource path to serve and handle the storage of your custom resource. This frees you from writing your own API server to handle the custom resource.
 ```
 
-Created a CRD for name : greeting, present in the repo
+Created a CRD with filename crd.yml for name : greeting, present in the repo
+
+Created a Custome Object which is based on the CRD created with filename CRD_Test.yml, present in the repo
