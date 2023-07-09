@@ -48,7 +48,7 @@ kubectl apply -f crd_test.yml
 
 
 
-4. Manage your Custom Oject using kubectl
+4. Manage your Custom Oject using kubectl (grt is another name for greeting as defined in YAML)
 
 ```
 kubectl get grt
@@ -62,5 +62,16 @@ kubectl get grt crd_test -o yaml
 ```
 ![image](https://github.com/Pavan-1997/K8s_CRD/assets/32020205/78950315-78a9-4612-b260-c0abd1b50723)
 
-6. 
+6. To delete a CRD
+
+```
+kubectl delete -f crd.yml
+```
+![image](https://github.com/Pavan-1997/K8s_CRD/assets/32020205/9135fe29-8ef1-47a7-9f5d-66de0d430729)
+
+7. Adding additional Printer Columns
+
+Apply  the CRD_Printer.yml in the repo to the cluster that adds the REPLICAS, VERSION, and Age columns.
+
+
 
