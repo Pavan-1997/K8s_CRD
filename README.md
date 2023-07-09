@@ -76,6 +76,7 @@ Apply  the crd_printer.yml in the repo to the cluster that adds the REPLICAS, VE
 ```
 kubectl apply -f crd_printer.yml
 ```
+![image](https://github.com/Pavan-1997/K8s_CRD/assets/32020205/c360fe9c-66ad-4142-96ab-c7103ceee460)
 
  
 
